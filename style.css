@@ -2061,6 +2061,18 @@ button:hover {
 }
 
 
+/* === Icon Styling on Cube Faces === */
+.face i {
+  font-size: 5.5rem;
+  color: #ffffff;
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.face:hover i {
+  transform: scale(1.15);
+  opacity: 1;
+}
 
 
 
